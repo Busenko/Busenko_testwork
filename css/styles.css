@@ -864,3 +864,15 @@ flex-direction: column;
             width: 100%;
             }
 }
+
+@media (hover: hover) {
+    .your-hover-class:hover {
+        background-color: red; 
+    }
+}
+
+@media (hover: none) {
+    .your-hover-class {
+        pointer-events: none; 
+    }
+}
