@@ -799,7 +799,7 @@ flex-direction: column;
         margin: 5px 0 15px;
         border: 1px solid #ccc;
         border-radius: 5px;
-        font-size: 12px;
+        font-size: 16px;
         transition: border-color 0.3s, box-shadow 0.3s;
 
         color:#16283c;
