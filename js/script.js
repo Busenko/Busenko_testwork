@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const loginButton = document.querySelector(".header__login");
     const popupLogin = document.querySelector(".header__popup-login");
-    // const closePopup = document.createElement("span");
+    const closePopup = document.createElement("span");
     
-    // closePopup.innerHTML = "&times;";
-    // closePopup.classList.add("popup-close");
-    // popupLogin.prepend(closePopup);
+    closePopup.innerHTML = "&times;";
+    closePopup.classList.add("popup-close");
+    popupLogin.prepend(closePopup);
     
     loginButton.addEventListener("click", function () {
         popupLogin.classList.toggle("active");
